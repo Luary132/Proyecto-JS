@@ -30,7 +30,7 @@ body{
     font-size: 30px;
     letter-spacing: 4px;
     line-height: 80px;
-    background: red;
+    background: #235E3D;
     color: white;
     text-align: center;
     width: 285px;
@@ -39,6 +39,24 @@ body{
     float: left; 
     text-transform: uppercase;   
 
+}
+
+.usersession{
+    border-style: none;
+    font-family: helvetica, arial;
+    background: #235E3D;
+    color: white;
+    width: 150px;
+    height: 40px;
+    float: right;
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 10px;
+
+}
+
+.usersession:hover{
+    background: #102c1c;
 }
 
 #menu{
@@ -74,6 +92,10 @@ ul li:hover{
     background: #235E3D;
     transition: 300ms;
     
+}
+
+.bx-wrapper, .bx-viewport {
+    height: 350px !important;
 }
 
 #post{
@@ -151,9 +173,7 @@ ul li:hover{
     height: 40px;
     margin-right: 10px;
     color: white;
-    border-style: none;
-
-
+    border-style: none; 
 }
 
 .coment:hover{
@@ -163,3 +183,18 @@ ul li:hover{
 .button-more:hover{
     background: #102c1c;
 }
+
+footer{
+    font-family: helvetica, arial;
+    color: white;
+    height: 47px;
+    width: 75%;
+    background: rgba(51, 51, 51, 0.90);
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+
+}
+
