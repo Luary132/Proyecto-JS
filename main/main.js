@@ -1,11 +1,15 @@
 $(document).ready(function(){
-    $(function(){
-        $('.bxslider').bxSlider({
-          mode: 'fade',
-          captions: true,
-          slideWidth: 1400,
-        });
-      });
+  $(function(){
+      $('.bxslider').bxSlider({
+        mode: 'fade',
+        captions: true,
+        slideWidth: 1400,
+      });   
+    });
+
+
+  console.log(articles)
+  
 
 
 
