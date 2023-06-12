@@ -1,0 +1,40 @@
+body{
+    background: url(../img/laposible.jpg);
+    background-attachment: fixed;
+
+}
+
+#logo{
+    background: #ca4d88;
+}
+
+.usersession{
+    background: #ca4d88;
+}
+
+.usersession:hover{
+    background: #911750;
+}
+
+.button-more{
+    background: #ca4d88;
+}
+
+.button-more:hover{
+    background: #911750;
+}
+
+
+.coment{
+    background: #ca4d88;
+}
+
+.coment:hover{
+    background: #911750;
+}
+
+ul li:hover{
+    background: #ca4d88;
+    transition: 300ms;
+
+}

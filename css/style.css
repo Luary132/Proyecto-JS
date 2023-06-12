@@ -9,11 +9,7 @@
     clear: both;
 }
 
-body{
-    background: url(../img/textura\ piedra.jpg);
-    background-attachment: fixed;
 
-}
 
 #global{
     width: 75%;
@@ -30,7 +26,6 @@ body{
     font-size: 30px;
     letter-spacing: 4px;
     line-height: 80px;
-    background: #235E3D;
     color: white;
     text-align: center;
     width: 285px;
@@ -44,7 +39,6 @@ body{
 .usersession{
     border-style: none;
     font-family: helvetica, arial;
-    background: #235E3D;
     color: white;
     width: 150px;
     height: 40px;
@@ -53,10 +47,6 @@ body{
     margin-top: -10px;
     margin-right: 10px;
 
-}
-
-.usersession:hover{
-    background: #102c1c;
 }
 
 #menu{
@@ -86,13 +76,7 @@ ul li{
     padding-left: 30px;
     padding-right: 30px;
 
-}
-
-ul li:hover{
-    background: #235E3D;
-    transition: 300ms;
-    
-}
+} 
 
 .bx-wrapper, .bx-viewport {
     height: 350px !important;
@@ -126,7 +110,6 @@ ul li:hover{
 
 .button-more{
     padding: 10px;
-    background: #235E3D;
     color: white;
     text-decoration: none;
     margin-top: 10px;
@@ -168,20 +151,11 @@ ul li:hover{
     font-family: helvetica,arial;
     font-size: 20px;
     float: right;
-    background: #235E3D;
     width: 130px;
     height: 40px;
     margin-right: 10px;
     color: white;
     border-style: none; 
-}
-
-.coment:hover{
-    background: #102c1c;
-}
-
-.button-more:hover{
-    background: #102c1c;
 }
 
 footer{
@@ -198,3 +172,46 @@ footer{
 
 }
 
+#theme-selector{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.7);
+    width: 50px;
+    height: 100px;
+}
+
+#to-bedrock,
+#to-red,
+#to-pink{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#to-bedrock{
+    background: #235E3D;
+}
+
+#to-red{
+    background: #aa0707;
+}
+
+#to-pink{
+    background: #ca4d88;
+}
+
+#to-bedrock:hover{
+    background: #102c1c;
+}
+
+#to-red:hover{
+    background: #4d0505;
+}
+
+#to-pink:hover{
+    background: #911750;
+}

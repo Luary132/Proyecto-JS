@@ -1,0 +1,40 @@
+body{
+    background: url(../img/rojo.jpg);
+    background-attachment: fixed;
+
+}
+
+#logo{
+    background: #aa0707;
+}
+
+.usersession{
+    background: #aa0707;
+}
+
+.usersession:hover{
+    background: #4d0505;
+}
+
+.button-more{
+    background: #aa0707;
+}
+
+.button-more:hover{
+    background: #4d0505;
+}
+
+
+.coment{
+    background: #aa0707;
+}
+
+.coment:hover{
+    background: #4d0505;
+}
+
+ul li:hover{
+    background: #aa0707;
+    transition: 300ms;
+
+}

@@ -1,0 +1,40 @@
+body{
+    background: url(../img/textura\ piedra.jpg);
+    background-attachment: fixed;
+
+}
+
+#logo{
+    background: #235E3D;
+}
+
+.usersession{
+    background: #235E3D;
+}
+
+.usersession:hover{
+    background: #102c1c;
+}
+
+.button-more{
+    background: #235E3D;
+}
+
+.button-more:hover{
+    background: #102c1c;
+}
+
+
+.coment{
+    background: #235E3D;
+}
+
+.coment:hover{
+    background: #102c1c;
+}
+
+ul li:hover{
+    background: #235E3D;
+    transition: 300ms;
+
+}

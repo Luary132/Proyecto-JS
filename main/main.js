@@ -27,16 +27,41 @@ $(document).ready(function(){
 
     });
 
+    /*selector de tema*/
+    var theme = $("#theme");
+
+    $("#to-bedrock").click(function(){
+      theme.attr("href", "css/bedrock.css")
+
+    });
+
+    $("#to-red").click(function(){
+      theme.attr("href", "css/red.css")
+
+    });
+
+    $("#to-pink").click(function(){
+      theme.attr("href", "css/pink.css")
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   });
-  /*<article class="post">
-    <h2>${item.title}</h2>
-    <span>${item.date}</span>
-    <button class="coment">comentar</button>
-    <p>
-      ${item.content}
-    </p>
-    <a href="#" class="button-more">Leer mas</a>
-
-</article>*/
