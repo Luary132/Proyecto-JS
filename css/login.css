@@ -1,0 +1,61 @@
+body{
+    background: url(../img/rojo.jpg);
+}
+#login-panel{
+    background: white;
+    margin-left: 34%;
+    margin-top: 10%;
+    width: 30%;
+    height: 400px;
+    padding: 5px;
+    box-shadow: 5px black;
+    border-radius: 5px;
+
+}
+
+#login-panel h4{
+    float: inline-start;
+    margin-left: 110px;
+    background: #235E3D;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+#userlog{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 155px;
+    padding-top: 10px;
+    margin-top: 20px;
+
+}
+
+#passwordlog{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+#login-panel input{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+#submit{
+    margin-top: 80px;
+    background-color: #235E3D;
+    width: 70px;
+    height: 30px;
+    border-style: none;
+    
+}
+
