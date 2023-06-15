@@ -37,16 +37,18 @@
 }
 
 .usersession{
-    border-style: none;
     font-family: helvetica, arial;
     color: white;
     width: 150px;
-    height: 40px;
+    height: 20px;
     float: right;
     padding: 10px;
     margin-top: -10px;
     margin-right: 10px;
-
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    
 }
 
 #menu{
